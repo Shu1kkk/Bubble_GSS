@@ -7,16 +7,14 @@
 
 ## リポ構成
 src/
-menu.gs # onOpen メニュー作成（各機能を呼び出す）
-csv_import.gs # CSV取り込みとユーザーシート反映（外部CSVの場合は認証必須）
-bubble_upload_dev.gs # Bubble へのアップロード（認証必須 / 開発版エンドポイント推奨）
-pivot_A.gs # ピボット A の作成
-pivot_B.gs # ピボット B の作成
-tab_tools.gs # タブ生成・整形などの補助
-time_trigger.gs # パイプライン（定時実行のエントリ）
-docs/
-architecture.png # （任意）全体図やスクショ
-
+- menu.gs # onOpen メニュー作成（各機能を呼び出す）
+- csv_import.gs # CSV取り込みとユーザーシート反映（外部CSVの場合は認証必須）
+- bubble_upload_dev.gs # Bubble へのアップロード（認証必須 / 開発版エンドポイント推奨）
+- pivot_A.gs # ピボット A の作成
+- pivot_B.gs # ピボット B の作成
+- tab_tools.gs # タブ生成・整形などの補助
+- time_trigger.gs # パイプライン（定時実行のエントリ）
+- 
 ## セキュリティ方針
 - このリポジトリは**コードのみ**公開します。**APIキー／トークン／認証付きURL／実データ**は一切含みません。
 - **鍵は共有しません。** 動作確認する方は、各自のテスト用ワークスペースと **ご自身のAPIキー** をご用意ください。  
