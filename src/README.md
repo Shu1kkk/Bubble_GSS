@@ -8,7 +8,7 @@
 ## リポ構成
 src/
 - menu.gs # onOpen メニュー作成（各機能を呼び出す）
-- csv_import.gs # CSV取り込みとユーザーシート反映（外部CSVの場合は認証必須）
+- csv_import.gs # CSV取り込みとユーザーシート反映（認証必須）
 - bubble_upload_dev.gs # Bubble へのアップロード（認証必須 / 開発版エンドポイント推奨）
 - pivot_A.gs # ピボット A の作成
 - pivot_B.gs # ピボット B の作成
