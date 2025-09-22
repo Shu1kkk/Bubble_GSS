@@ -35,8 +35,8 @@ src/
 3. **スクリプトのプロパティ** を設定（GAS エディタ右上の歯車 → プロジェクトのプロパティ → スクリプトのプロパティ）。
 
 ### スクリプトプロパティ
-| KEY | 例 | 説明 |
-| `BUBBLE_TOKEN` | a1b2c3d4exxxxxxxxxxxxxxx7y8z9 | Bubble の Data API トークン |
+- | KEY | 例 | 説明 |
+- | `BUBBLE_TOKEN` | a1b2c3d4exxxxxxxxxxxxxxx7y8z9 | Bubble の Data API トークン |
 
 ## 使い方
 ### 手動実行（メニュー）
